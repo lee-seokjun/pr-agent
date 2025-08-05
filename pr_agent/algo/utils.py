@@ -295,6 +295,9 @@ def convert_to_markdown_v2(output_data: dict,
                             else:
                                 issue_str = f"**{issue_header}**\n\n{issue_content}\n\n"
                         markdown_text += f"{issue_str}\n\n"
+                        markdown_text += f"- 📄 파일: `{relevant_file}`\n"
+                        markdown_text += f"- 🔢 라인: {start_line} ~ {end_line}\n"
+                        markdown_text += f"{'*' * 140}\n\n"
                     except Exception as e:
                         get_logger().exception(f"Failed to process 'Recommended focus areas for review': {e}")
                 if gfm_supported:
