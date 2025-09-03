@@ -2,6 +2,10 @@
 
 <div align="center">
 
+> ⚠️ 본 저장소는 [PR-Agent (AGPLv3 License)](https://github.com/qodo-ai/pr-agent)를 포크하여 강의 시연 및 학습 목적으로 사용합니다.  
+> 실제 서비스 배포본이 아니며, 모든 권리는 원저작자에게 있습니다.  
+> 자세한 내용은 LICENSE 및 원본 저장소를 참고하시기 바랍니다.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://www.qodo.ai/wp-content/uploads/2025/02/PR-Agent-Purple-2.png">
   <source media="(prefers-color-scheme: light)" srcset="https://www.qodo.ai/wp-content/uploads/2025/02/PR-Agent-Purple-2.png">
